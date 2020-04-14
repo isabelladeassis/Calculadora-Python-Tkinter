@@ -42,9 +42,9 @@ subtraction = Button(cal, padx=16, bd=8, fg="black", font=('arial', 20, 'bold'),
 
 #============================================================#
 
-btn3 = Button(cal, padx=16, bd=8, fg="black", font=('arial', 20, 'bold'), text="3", bg="powder blue", command=lambda:btnClick(3)).grid(row=3, column=0)
+btn1 = Button(cal, padx=16, bd=8, fg="black", font=('arial', 20, 'bold'), text="1", bg="powder blue", command=lambda:btnClick(3)).grid(row=3, column=0)
 btn2 = Button(cal, padx=16, bd=8, fg="black", font=('arial', 20, 'bold'), text="2", bg="powder blue", command=lambda:btnClick(2)).grid(row=3, column=1)
-btn1 = Button(cal, padx=16, bd=8, fg="black", font=('arial', 20, 'bold'), text="1", bg="powder blue", command=lambda:btnClick(1)).grid(row=3, column=2)
+btn3 = Button(cal, padx=16, bd=8, fg="black", font=('arial', 20, 'bold'), text="3", bg="powder blue", command=lambda:btnClick(1)).grid(row=3, column=2)
 multiply = Button(cal, padx=16, bd=8, fg="black", font=('arial', 20, 'bold'), text="*", bg="powder blue", command=lambda:btnClick("*")).grid(row=3, column=3)
 
 #============================================================#
